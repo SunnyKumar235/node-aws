@@ -25,7 +25,7 @@ app.use(cors());
 
 // defining an endpoint to return all ads
 app.get('/', (req, res) => {
-  res.send("Welcome to the home page");
+  res.send("I am here baby");
 });
 
 const port = process.env.PORT || 3001;
