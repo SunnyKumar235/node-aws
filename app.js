@@ -28,7 +28,8 @@ app.get('/', (req, res) => {
   res.send("Welcome to the home page");
 });
 
+const port = process.env.PORT || 3001;
 // starting the server
-app.listen(3001, () => {
+app.listen(port, () => {
   console.log('listening on port 3001');
 });
